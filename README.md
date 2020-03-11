@@ -16,12 +16,9 @@
     ```
 Source used: https://opensource.com/article/19/5/python-3-default-mac
 
-# Create virtual env
-```
-python3 -m venv env
-```
-
 # install dependencies
 ```
 pip3 install flask
+pip3 install sqlalchemy
+pip3 install cryptography
 ```
