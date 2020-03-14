@@ -1,6 +1,10 @@
+from injector import inject
+
+from services.db import Database
 
 class MovieService:
-    def __init__(self, database):
+    @inject
+    def __init__(self, database: Database):
         self.database = database
     
     def allMovies(self):
